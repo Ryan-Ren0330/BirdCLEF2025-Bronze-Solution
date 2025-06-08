@@ -81,8 +81,8 @@ Prepare the data directory with:
 
 ## 🧑‍💻 Team
 
-Ryan Ren
-Zhenghao Ni
+Ryan Ren  
+Zhenghao Ni  
 
 ## 🏁 Results
 
