@@ -4,13 +4,6 @@ This repository hosts two high-scoring inference notebooks submitted to the [Bir
 
 ## 📂 Project Structure
 
-Inference/
-    bird25-inference-seresnext-nfnet-bronze.ipynb
-    bird25-openvino-ensemble-infer-baseline-bronze.ipynb
-    birdclef2025-single-sed-model-inference.ipynb
-LICENSE
-README.md
-
 - bird25-inference-seresnext-nfnet-bronze.ipynb  
   Weighted ensemble using ECA-NFNet-L0 and SeresNext26t_32x4d backbones. Achieved Private LB 0.893 (Bronze Medal).
 
@@ -30,7 +23,7 @@ BirdCLEF 2025 is a bio-acoustics challenge to detect bird species in noisy rainf
 - Blend Weights: 0.6 (NFNet) + 0.4 (SeresNext)  
 - Post-processing: Power-adjusted thresholding  
 - Pooling: Attention-based  
-- Runtime: ~40 min  
+- Runtime: ~70 min  
 - Key References:  
   https://www.kaggle.com/code/myso1987/post-processing-with-power-adjustment-for-low-rank  
   https://www.kaggle.com/datasets/i2nfinit3y/bird2025-sed-ckpt
@@ -38,7 +31,7 @@ BirdCLEF 2025 is a bio-acoustics challenge to detect bird species in noisy rainf
 ## 🥇 Solution B — Multi-Stage OpenVINO Ensemble (PB 0.893)
 
 - Pipeline: Single SED → OpenVINO-optimized model → 3-Fold SED ensemble  
-- Runtime: ~1 h 05 min  
+- Runtime: ~80 min  
 - Optimizations: OpenVINO multithreaded CPU inference, Test-Time Augmentation (TTA)  
 - Bottleneck: 3-Fold SED mel-spectrogram generation (consider `librosa` instead of `torchaudio`)  
 - Key References:  
