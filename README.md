@@ -1,0 +1,1 @@
+# BirdCLEF2025-Bronze-Solution
