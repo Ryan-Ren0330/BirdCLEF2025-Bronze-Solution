@@ -42,7 +42,7 @@ BirdCLEF 2025 is a bio-acoustics challenge to detect bird species in noisy rainf
 ## 🏆 Community Baseline
 
 - birdclef2025-single-sed-model-inference.ipynb   
-https://www.kaggle.com/code/i2nfinit3y/bird2025-single-sed-model-inference-lb-0-857 
+https://www.kaggle.com/code/i2nfinit3y/bird2025-single-sed-model-inference-lb-0-857   
   Author: i2nfinit3y  
   This single-model SED notebook served as the high-quality baseline and design reference for our winning solutions.
 
@@ -96,7 +96,7 @@ Final rank: top ~5% among ~2,000 teams
 ## 📫 Contact
 
 GitHub Issues  
-Github Profile: https://github.com/Ryan-Ren0330
-Kaggle: https://www.kaggle.com/ryanren
-Email: ryan.ren@mail.utoronto.ca
+Github Profile: https://github.com/Ryan-Ren0330  
+Kaggle: https://www.kaggle.com/ryanren  
+Email: ryan.ren@mail.utoronto.ca  
 
