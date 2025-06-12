@@ -59,7 +59,8 @@ Prepare the data directory with:
 
 ## 🧑‍💻 Team
 
-[Ryan Ren](https://github.com/Ryan-Ren0330)    
+- [Ryan Ren](https://github.com/Ryan-Ren0330)
+- [Zhenghao Ni](https://github.com/NZHGREALISH)   
 Zhenghao Ni  
 
 ## 🏁 Results
