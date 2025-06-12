@@ -2,6 +2,13 @@
 
 This repository hosts two high-scoring inference notebooks submitted to the [BirdCLEF 2025](https://www.kaggle.com/competitions/birdclef-2025) competition, both earning Bronze Medals with Private Leaderboard scores of 0.893. Additionally, it includes a community-released single-model inference notebook that provided significant inspiration for our work.
 
+## 🏁 Results
+
+| Solution | Private LB | Medal |
+|----------|-----------:|-------|
+| A        | 0.893      | 🥉    |
+| B        | 0.893      | 🥉    |
+
 ## 📌 Project Overview
 
 BirdCLEF 2025 is a bio-acoustics challenge to detect bird species in noisy rainforest soundscapes. Our solutions combine CNN backbones, test-time augmentation, post-processing, and strategic ensembling to balance accuracy and runtime.
@@ -61,14 +68,7 @@ Prepare the data directory with:
 
 - [Ryan Ren](https://github.com/Ryan-Ren0330)
 - [Zhenghao Ni](https://github.com/NZHGREALISH)   
-Zhenghao Ni  
 
-## 🏁 Results
-
-| Solution | Private LB | Medal |
-|----------|-----------:|-------|
-| A        | 0.893      | 🥉    |
-| B        | 0.893      | 🥉    |
 
 Final rank: top ~5% among ~2,000 teams
 
