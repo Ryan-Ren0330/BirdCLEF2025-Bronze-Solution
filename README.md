@@ -39,18 +39,7 @@ https://www.kaggle.com/code/i2nfinit3y/bird2025-single-sed-model-inference-lb-0-
 
 ### Requirements
 
-pip install -r requirements.txt
-
 Core packages: torch>=2.0, torchaudio, timm, numpy, pandas, librosa, scipy, opencv-python, openvino-runtime (optional), tqdm, joblib, matplotlib
-
-### Directory Layout
-
-Inference/
-    bird25-inference-seresnext-nfnet-bronze.ipynb
-    bird25-openvino-ensemble-infer-baseline-bronze.ipynb
-    birdclef2025-single-sed-model-inference.ipynb
-LICENSE
-README.md
 
 ### Running
 
@@ -70,7 +59,7 @@ Prepare the data directory with:
 
 ## 🧑‍💻 Team
 
-Ryan Ren  
+[Ryan Ren](https://github.com/Ryan-Ren0330)    
 Zhenghao Ni  
 
 ## 🏁 Results
@@ -84,7 +73,6 @@ Final rank: top ~5% among ~2,000 teams
 
 ## 📫 Contact
 
-GitHub Issues  
 Github Profile: https://github.com/Ryan-Ren0330  
 Kaggle: https://www.kaggle.com/ryanren  
 Email: ryan.ren@mail.utoronto.ca  
